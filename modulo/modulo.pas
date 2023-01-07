@@ -6,8 +6,8 @@ var
 begin
     read(x);
 
-    if x > 0 then
+    if x < 0 then
         x := -x;
 
-    writeln(-x);
+    writeln(x);
 end.
