@@ -5,6 +5,6 @@ var
 
 begin
     read(x);
-    x:= x * x;
+    x := x * x;
     writeln(x);
 end.
