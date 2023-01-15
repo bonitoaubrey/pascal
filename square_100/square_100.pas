@@ -10,5 +10,5 @@ begin
         i := i + 1;
     end;
 
-    writeln;
+    writeln();
 end.
