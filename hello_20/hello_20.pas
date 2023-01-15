@@ -1,4 +1,4 @@
-program hello20;
+program hello_20;
 
 var
     i: integer;
