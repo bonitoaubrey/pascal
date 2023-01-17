@@ -2,8 +2,8 @@ program sequence;
 
 begin
     writeln('First');
-    readln;
+    read();
     writeln('Second');
-    readln;
+    read();
     writeln('Third');
 end.
