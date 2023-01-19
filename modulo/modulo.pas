@@ -2,11 +2,13 @@ program modulo;
 
 var
     x: integer;
+    negative: boolean;
 
 begin
     read(x);
 
-    if x < 0 then
+    negative := x < 0;
+    if negative then
         x := -x;
 
     writeln(x);
