@@ -1,11 +1,11 @@
 program star_slash;
 
 var
-    n, m: integer;
+    i, j: integer;
 
 begin
-    for n := 1 to 24 do begin
-        for m := 1 to n - 1 do
+    for i := 1 to 24 do begin
+        for j := 1 to i - 1 do
             write(' ');
         writeln('*');
     end;
