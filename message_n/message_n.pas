@@ -1,8 +1,8 @@
 program message_n;
 
 const
-    MESSAGE = 'Hello, World!';
-    COUNT = 20;
+    MESSAGE: string = 'Hello, World!';
+    COUNT: integer = 6;
 
 var
     i: integer;
