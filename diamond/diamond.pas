@@ -1,6 +1,7 @@
 program diamond;
 
-var half, j, height, i: integer;
+var
+    half, j, height, i: integer;
 
 begin
     repeat
