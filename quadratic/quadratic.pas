@@ -12,6 +12,6 @@ begin
         exit();
     d := sqrt(d);
     x1 := (-b - d) / (2 * a);
-    x1 := (-b + d) / (2 * a);
+    x2 := (-b + d) / (2 * a);
     ok = true;
 end;
