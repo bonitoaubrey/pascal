@@ -1,5 +1,4 @@
 program sequence;
-
 begin
     writeln('First');
     readln();
