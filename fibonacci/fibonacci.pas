@@ -1,7 +1,7 @@
 function fibonacci(number: integer): longint;
 var
     i: integer;
-    previous, current, res: longint;
+    previous, current, result: longint;
 begin
     if number <= 0 then begin
         fibonacci := 0;
@@ -9,13 +9,13 @@ begin
     end;
 
     current := 0;
-    res := 1;
+    result := 1;
 
     for i := 2 to number do begin
         previous := current;
-        current := res;
-        res := previous + current;
+        current := result;
+        result := previous + current;
     end;
 
-    fibonacci := res;
+    fibonacci := result;
 end;
