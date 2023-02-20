@@ -1,14 +1,14 @@
 program simple_sum;
 
 var
-    sum, count, n: longint;
+    sum, count, number: longint;
 
 begin
     sum := 0;
     count := 0;
     while not SeekEof do begin
-        read(n);
-        sum := sum + n;
+        read(number);
+        sum := sum + number;
         count := count + 1;
     end;
 
